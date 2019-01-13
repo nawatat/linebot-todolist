@@ -22,6 +22,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+app.post('/webhook', (req, res) => res.sendStatus(200))
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
