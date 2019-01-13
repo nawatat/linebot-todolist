@@ -53,7 +53,7 @@ app.use(function(err, req, res, next) {
 function reply(reply_token) {
   let headers = {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer  {c250nsCx5FpnupzPY/zMrEnqJ8drnkFioBT5Nrs9UH7tf28qAPMAxkz/2k5Jj6slJsRDWJut0XEJcICjDh1m+GsaqhduGxdqAN95omC+98wlCiYtbqH6lFDi4Bnhi/UxW5KbCOOu6RHRyp9Ga8bQiAdB04t89/1O/w1cDnyilFU=}'
+      'Authorization': 'Bearer c250nsCx5FpnupzPY/zMrEnqJ8drnkFioBT5Nrs9UH7tf28qAPMAxkz/2k5Jj6slJsRDWJut0XEJcICjDh1m+GsaqhduGxdqAN95omC+98wlCiYtbqH6lFDi4Bnhi/UxW5KbCOOu6RHRyp9Ga8bQiAdB04t89/1O/w1cDnyilFU='
   }
   let body = JSON.stringify({
       replyToken: reply_token,
